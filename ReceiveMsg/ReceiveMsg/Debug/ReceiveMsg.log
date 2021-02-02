@@ -1,0 +1,7 @@
+﻿  ReceiveMessage.cpp
+Z:\c_project\wechat_dll\ReceiveMsg\ReceiveMsg\ReceiveMessage.cpp(67,20): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 6 拥有了类型“LPVOID”
+Z:\c_project\wechat_dll\ReceiveMsg\ReceiveMsg\ReceiveMessage.cpp(67,20): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 7 拥有了类型“LPVOID”
+Z:\c_project\wechat_dll\ReceiveMsg\ReceiveMsg\ReceiveMessage.cpp(71,20): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 5 拥有了类型“LPVOID”
+Z:\c_project\wechat_dll\ReceiveMsg\ReceiveMsg\ReceiveMessage.cpp(71,20): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 6 拥有了类型“LPVOID”
+Z:\c_project\wechat_dll\ReceiveMsg\ReceiveMsg\ReceiveMessage.cpp(71,20): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 7 拥有了类型“LPVOID”
+  ReceiveMsg.vcxproj -> Z:\c_project\wechat_dll\ReceiveMsg\Debug\ReceiveMsg.dll
