@@ -34,9 +34,10 @@ BOOL APIENTRY DllMain( HMODULE hModule,
             if (Global_Client == 0)
                 MessageBox(NULL, L"首次连接Python server失败", L"Connect server error", 0);
         }
-		CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)ThreadProc_read, hModule, 0, NULL);
+		
         CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)hold_the_socket, NULL, NULL, 0);
-		break;
+        CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)ThreadProc_read, hModule, 0, NULL);
+	break;
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:
     case DLL_PROCESS_DETACH:
